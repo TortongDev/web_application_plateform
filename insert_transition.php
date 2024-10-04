@@ -2,4 +2,8 @@
 
 	require_once "./Connection.php";
 	$con = new connection();
-	var_dump($con->db);
+	$stmt = $con->db->prepare("insert into chache_data (data, data_desc, avatar) values(?, ?, ?)");
+	$stmt->execute(['','','']);
+	
+	exit;
+?>

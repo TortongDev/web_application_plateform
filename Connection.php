@@ -2,9 +2,9 @@
 
 class Connection {
 	public $hostname = "localhost";
-	public $username = "root";
+	public $username = "tortongdev";
 	public $password = "Tortong@1997";
-	public $database = "test_database";
+	public $database = "db_shop_bus";
 	public $db = null;
 	public function __construct(){
 		try{
